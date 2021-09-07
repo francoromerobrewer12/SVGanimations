@@ -1,0 +1,36 @@
+
+.gym-svg{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.punto1{
+    animation: blink 2s ease infinite;
+}
+.punto2{
+    animation: blink 2s ease infinite 0.5s;
+}
+.circle1{
+    animation: blink 3s ease-in infinite 0.5s;
+}
+.circle2{
+    animation: blink 4s ease-in infinite 1s;
+}
+.star1{
+    animation: blink 3s ease-in infinite 0.7s;
+}
+.star2{
+    animation: blink 3s ease-in infinite 2s;
+}
+
+
+@keyframes blink {
+    
+    to{
+        opacity: 0;
+    }
+}

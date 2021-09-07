@@ -1,0 +1,33 @@
+.sushi-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #00C092;
+    position: relative;
+}
+
+.sushi-svg{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btnArrow{
+    background-color: rgb(241, 241, 241);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer
+}
+
+.arrowIcon{
+    font-size: 2rem;
+}
